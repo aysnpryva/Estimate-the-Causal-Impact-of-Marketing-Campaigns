@@ -2,13 +2,13 @@
 
 Bu layihədə müşahidə məlumatları (observational data) üzərində marketinq kampaniyalarının effektivliyini ölçmək üçün **Causal Inference** (Səbəb-Nəticə əlaqəsi) metodları tətbiq olunmuşdur. Analiz zamanı həm real vəziyyət qiymətləndirilmiş, həm də modelin həssaslığını yoxlamaq üçün simulyasiyalar aparılmışdır.
 
-## 🚀 Metodologiya
+##  Metodologiya
 - **Difference-in-Differences (DID):** Müalicə (Treated) və Nəzarət (Control) qrupları arasındakı fərqi zaman daxilində müqayisə etmək üçün.
 - **Bayesian Structural Time Series (CausalImpact):** "Əgər müdaxilə olmasaydı nə olardı?" sualına cavab verən counterfactual proqnozlar qurmaq üçün.
 
 ---
 
-## 📈 Analiz və Nəticələr
+##  Analiz və Nəticələr
 
 ### 1. Paralel Trendlərin Yoxlanılması
 Analizin doğruluğu üçün kampaniyadan əvvəl regionların oxşar trend nümayiş etdirməsi şərtdir.
@@ -34,15 +34,15 @@ Modelin real təsirləri tutma qabiliyyətini yoxlamaq üçün məlumatlara sün
 
 ---
 
-## 🛠 Texnologiyalar
+##  Texnologiyalar
 - **Dil:** Python
 - **Kitabxanalar:** `pycausalimpact`, `statsmodels`, `pandas`, `matplotlib`, `seaborn`
 - **Platforma:** JupyterLab / Google Colab
 
-## 📂 Layihə Strukturu
+##  Layihə Strukturu
 - `picture/`: Analiz zamanı əldə olunan bütün vizuallaşdırmalar.
 - `Estimate the Causal Impact of Marketing Campaigns.ipynb`: Bütün hesablamaları və kodları özündə cəmləyən əsas notebook.
 - `README.md`: Layihə haqqında ümumi məlumat və nəticələrin şərhi.
 
 ---
-**Müəllif:** Aysun (Computer Engineering Student @ SABAH Groups)
+
